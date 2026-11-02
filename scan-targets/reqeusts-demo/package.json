@@ -1,8 +1,0 @@
-{
-  "name": "reqeusts",
-  "version": "1.0.0",
-  "description": "Demo package for supply-chain security project",
-  "scripts": {
-    "postinstall": "node ./marker.js"
-  }
-}
