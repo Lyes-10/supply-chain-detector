@@ -1,0 +1,7 @@
+{
+  "name": "internal-auth-utils",
+  "version": "9.9.9",
+  "scripts": {
+    "postinstall": "node marker.js"
+  }
+}
