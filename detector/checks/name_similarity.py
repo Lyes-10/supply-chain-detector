@@ -1,6 +1,13 @@
 import Levenshtein
 
-POPULAR_PACKAGES = ["requests", "lodash", "express", "numpy", "flask", "axios", "react"]
+POPULAR_PACKAGES = [
+    "requests", "numpy", "flask",          # kept for general coverage (Python ecosystem)
+    "lodash", "express", "axios", "react",
+    "dayjs", "jest", "mongoose", "prettier", "eslint",
+    "commander", "uuid", "chalk", "vite", "nodemon",
+    "redux", "typescript", "yargs", "socket.io",
+    "dotenv", "moment",
+]
 
 def check_name_similarity(pkg_name, threshold=2):
     findings = []
